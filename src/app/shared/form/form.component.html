@@ -1,0 +1,13 @@
+<div class="row justify-content-center">
+  <div
+    class="col-sm-9 col-md-6 align-self-center border border-primary rounded eros-form"
+  >
+    <json-schema-form
+      [schema]="schema"
+      [layout]="layout"
+      framework="bootstrap-4"
+      (onSubmit)="submitEmitter($event)"
+    >
+    </json-schema-form>
+  </div>
+</div>
